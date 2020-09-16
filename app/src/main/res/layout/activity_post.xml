@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".PostActivity">
+
+    <EditText
+        android:id="@+id/postEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:hint="Write Sometjing to Your Post"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/postButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/nameLabelId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name : "
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nameTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/InsLabelId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Instituition : "
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/insTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/addPostButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD POST"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/myPostButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY POST"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/allPostButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEE ALL POSTS"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/allProfileButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEE ALL PROFILES"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/editButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT PROFILE"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/signOutButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN OUT"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
